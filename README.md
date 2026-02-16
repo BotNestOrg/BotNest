@@ -1,40 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BotNest — AI Chatbot Builder Platform (Capstone Project)
 
-## Getting Started
+BotNest is a full-stack AI chatbot platform developed as a **Master’s Capstone Project**.  
+The application enables users to create, configure, and deploy AI-powered chatbots for customer support and automation use cases.
 
-First, run the development server:
+The system integrates modern web technologies, cloud services, and large language models to deliver scalable and customizable chatbot solutions.
 
+---
+
+## Project Context
+- Program: Master of Science in Computer Science
+- Project Type: Capstone (Team Project)
+- Institution: Clark University
+
+---
+
+## Key Features
+- AI-powered chatbot conversations using OpenAI
+- User authentication and access control
+- Chatbot session tracking and conversation history
+- Admin dashboard for chatbot management
+- Subscription-based access and billing
+- Scalable backend with database persistence
+
+---
+
+## Tech Stack
+- **Frontend:** Next.js, TypeScript, Tailwind CSS
+- **Backend:** Node.js, API routes, server actions
+- **Database:** PostgreSQL with Prisma ORM
+- **Authentication:** Clerk
+- **Payments:** Stripe
+- **AI Integration:** OpenAI APIs
+- **Deployment:** Vercel
+- **Development:** Docker
+
+---
+
+## Team & Roles
+This project was developed collaboratively as a team capstone.
+
+- **Karthik Edhala** – AI/LLM Specialist, Full-Stack Developer  
+- **Rohith Madarapu** – Frontend Developer, Full-Stack Developer  
+- **Suraj Reddy Alluri** – Backend Developer, Scrum Master, Full-Stack Developer  
+- **Bharath Mahamkali** – Database Engineer, QA Tester, Full-Stack Developer  
+
+---
+
+## System Overview
+- Modular architecture separating frontend, backend, and data layers
+- Secure authentication and role-based access
+- Persistent storage for chatbot data and sessions
+- Extensible design for future enhancements
+
+---
+
+## Setup (Local Development)
 ```bash
 npm install
-cd prisma
-npx prisma generate
-cd ..
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
